@@ -40,4 +40,13 @@
 		<servlet-name>sendGreet</servlet-name>
 		<url-pattern>/greetING</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SendRedGreet</servlet-name>
+		<servlet-class>abc_pack.SendRequestGreet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendRedGreet</servlet-name>
+		<url-pattern>/SendRedgreet</url-pattern>
+	</servlet-mapping>
 </web-app>
